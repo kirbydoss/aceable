@@ -1,0 +1,24 @@
+/* 
+	Product Sorting Test for Aceable
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:500|Libre+Franklin:900');
+
+body, p, a, * {font-family:'Cormorant Garamond'; font-weight:500;}
+body {background:#e5e5e5;}
+#app {padding:30px; max-width:1200px; margin:0 auto;}
+.card { border:none; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;-webkit-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease;}
+.card-section {padding:30px 30px 15px;}
+.cell {display:-webkit-box;display:-ms-flexbox;display:flex; margin-bottom:15px;}
+.card-section.titlebit {padding-bottom:20px;}
+.card-section.descbit {background:#f9f9f9; padding: 30px; border-top:1px solid #e0e0e0}
+.card-section.descbit p {font-size:1.2em; line-height:1.2}
+h1,h2,h3,h4,h5,h6 {font-family:'Libre Franklin'; font-weight:900;}
+h2 {font-weight:900; letter-spacing:0.04em; text-transform:uppercase; line-height:1.1; font-size:1.3em; margin-bottom:10px; color:#333}
+
+h3 {color:green; font-weight:bold; font-size:1.2em; letter-spacing:0.06em; margin-top:0px; margin-bottom:0px;}
+
+.button {font-family:'Libre Franklin'; font-weight:900; font-size:0.6em; letter-spacing:0.1em; text-transform:uppercase; background:transparent; border:2px solid #333; color:#333; -webkit-transition:all 0.3s ease; -o-transition:all 0.3s ease; transition:all 0.3s ease; margin-top:20px; padding-top:12px;}
+.button:hover, .button:focus, .button:active, a.cardholder:hover .button {background:#333; color:#fff;}
+
+a.cardholder:hover .card {-webkit-transform:scale(1.08);-ms-transform:scale(1.08);transform:scale(1.08)}
